@@ -31,11 +31,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <header className="border-b">
-          <div className="container flex h-16 items-center px-4">
+          <div className="container mx-auto flex h-16 items-center px-4">
             <MainNav />
           </div>
         </header>
-        <main className="flex-1 container py-6 px-4">{children}</main>
+        <main className="flex-1 container mx-auto py-6 px-4">{children}</main>
         <Toaster />
       </body>
     </html>
